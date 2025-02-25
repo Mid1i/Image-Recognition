@@ -3,7 +3,7 @@
 
 
 int main() {
-  cv::Mat image = cv::imread("C:/Programming/C++/Image-Recognition/25.02/src/image.jpg");
+  cv::Mat image = cv::imread("image.jpg");
 
   if (image.empty()) {
     std::cout << "Ошибка: не удалось загрузить изображение. Проверьте путь к файлу." << std::endl;
